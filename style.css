@@ -45,4 +45,11 @@ nav {
     background-color: var(--primary-color);
     padding: 1rem 0;
 }
+.nav_list {
+    transition: var(--transition);
+}
+.nav_list:hover {
+    text-decoration: overline;
+    color: black;
+}
 /* navbar ends here  */
