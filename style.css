@@ -22,6 +22,11 @@ img{
     width: 100%;
     height: auto;
 }
+.flex-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 /*__reset code and commone code end here__*/
 
@@ -38,5 +43,6 @@ nav {
 .nav-upper {
     min-height: 1ovh;
     background-color: var(--primary-color);
+    padding: 1rem 0;
 }
 /* navbar ends here  */
