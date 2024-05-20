@@ -24,3 +24,15 @@ img{
 }
 
 /*__reset code and commone code end here__*/
+
+/* navbar starts here  */
+nav {
+    font-family: fantasy;
+    font-size: 1.2rem;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+/* navbar ends here  */
