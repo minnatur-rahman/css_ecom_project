@@ -38,7 +38,7 @@ nav {
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 100;
+    z-index: 100;  
 }
 .nav-upper {
     min-height: 1ovh;
@@ -51,5 +51,13 @@ nav {
 .nav_list:hover {
     text-decoration: overline;
     color: black;
+}
+.nav_link{
+    color: white;
+    transition: var(--transition);
+}
+.nav_link:hover{
+    color: black;
+    
 }
 /* navbar ends here  */
