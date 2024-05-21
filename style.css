@@ -45,10 +45,10 @@ nav {
     background-color: var(--primary-color);
     padding: 1rem 0;
 }
-.nav_list {
+.nav-list {
     transition: var(--transition);
 }
-.nav_list:hover {
+.nav-list:hover {
     text-decoration: overline;
     color: black;
 }
@@ -57,7 +57,12 @@ nav {
     transition: var(--transition);
 }
 .nav_link:hover{
-    color: black;
-    
+    color: black;    
+}
+.profile-icon{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: white 1px solid;
 }
 /* navbar ends here  */
