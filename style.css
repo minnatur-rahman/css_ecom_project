@@ -80,3 +80,16 @@ nav {
 }
 /* navbar ends here  */
 
+@media (max-width: 992px){
+    .flex-space-around{
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 0px;
+    }
+}
+@media (max-width: 768px){
+    
+}
+@media (max-width: 600px){
+    
+}
