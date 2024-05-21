@@ -80,6 +80,13 @@ nav {
 }
 /* navbar ends here  */
 
+/* footer starts here  */
+.footer{
+    padding: 1rem;
+    background-color: var(--primary-color);
+}
+/* footer ends here  */
+
 @media (max-width: 992px){
     .flex-space-around{
         flex-direction: column;
