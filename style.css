@@ -64,5 +64,12 @@ nav {
     height: 3rem;
     border-radius: 50%;
     border: white 1px solid;
+    filter: saturate(0);
+    transition: var(--transition);
+}
+.profile-icon:hover{
+    
+    filter: saturate(1);
+    
 }
 /* navbar ends here  */
