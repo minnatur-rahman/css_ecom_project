@@ -67,9 +67,16 @@ nav {
     filter: saturate(0);
     transition: var(--transition);
 }
-.profile-icon:hover{
-    
-    filter: saturate(1);
-    
+.profile-icon:hover{    
+    filter: saturate(1);   
+}
+.nav-lower{
+    min-height: 10vh;
+    background-color: var(--secondary-color);
+    font-weight: bolder;
+}
+.nav_brand{
+    font-size: 2rem;
 }
 /* navbar ends here  */
+
