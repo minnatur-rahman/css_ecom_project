@@ -41,6 +41,11 @@ img{
 /*__reset code and commone code end here__*/
 
 /* navbar starts here  */
+
+#menu-icon{
+    display: nome;
+}
+
 nav {
     font-family: fantasy;
     font-size: 1.2rem;
@@ -76,7 +81,7 @@ nav {
     border: white 1px solid;
     filter: saturate(0);
     transition: var(--transition);
-}
+} 
 .profile-icon:hover{    
     filter: saturate(1);   
 }
@@ -114,6 +119,15 @@ nav {
         gap: 1rem;
         padding: 1rem 0px;
     }
+#menu-icon{
+    display: block;
+    text-align: center;
+    margin: 1rem;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
 }
 @media (max-width: 768px){
     
