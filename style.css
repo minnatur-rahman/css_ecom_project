@@ -6,7 +6,7 @@
     --padding: 0.5rem;
     --transition: all 0.6rem;
     --box-shadow: 0.1rem 0.2rem 0.8rem rgba(205, 202, 202, 0.5)
-    --border-radius: 50%;
+    --border-radius: 0.6rem;
 }
 
 *{
@@ -42,6 +42,18 @@ img{
 }
 .btn:hover {
     background-color: var(--secondary-color);
+}
+.card{
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    padding: var(--padding);
+}
+.card:hover{
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    padding: var(--padding);
 }
 
 /*__reset code and commone code end here__*/
@@ -154,6 +166,28 @@ main{
 }
 .main-content{
     flex: 3;
+    padding: var(--padding);
+}
+.actions_sort select {
+    padding: var(--padding);
+}
+.actions_search input {
+    padding: var(--padding);
+    width: 15rem;
+}
+.actions_search button{
+    margin-left: -0.3rem;
+    border: 1px;
+    padding: 0.55rem;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+.product{
+
 }
 /* main ends here */
 
