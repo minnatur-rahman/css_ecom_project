@@ -138,6 +138,25 @@ nav {
 }
 /* headers ends here */
 
+/* main starts here */
+main{
+    padding: 4rem 0;
+    min-height: 80vh;
+}
+.sidebar{
+    flex: 1;
+    padding: var(--padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-self: flex-start;
+}
+.main-content{
+    flex: 3;
+}
+/* main ends here */
+
 /* footer starts here  */
 .footer{
     padding: 1rem;
