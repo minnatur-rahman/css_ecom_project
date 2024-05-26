@@ -206,6 +206,12 @@ main{
 .product_img:hover{
     filter: saturate(1);
 }
+.product_body{
+    padding: var(--padding);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
 /* main ends here */
 
 /* footer starts here  */
