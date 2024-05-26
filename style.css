@@ -212,6 +212,9 @@ main{
     flex-direction: column;
     gap: 0.5rem;
 }
+.learn_more{
+    color: green;
+}
 /* main ends here */
 
 /* footer starts here  */
