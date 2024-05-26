@@ -197,6 +197,12 @@ main{
     border-radius: var(--border-radius);
     z-index: 10;
 }
+.product_img{
+    width: 100%;
+    height: 15rem;
+    filter: saturate(0);
+    transition: var(--transition);
+}
 /* main ends here */
 
 /* footer starts here  */
