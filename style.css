@@ -203,6 +203,9 @@ main{
     filter: saturate(0);
     transition: var(--transition);
 }
+.product_img:hover{
+    filter: saturate(1);
+}
 /* main ends here */
 
 /* footer starts here  */
