@@ -239,6 +239,14 @@ main{
      justify-content: center;
      align-items: center;
 }
+.pagination_btn{
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+}
+.pagination_btn:first-child {
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+}
 /* pagination end here */
 /* main ends here */
 
