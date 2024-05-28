@@ -233,6 +233,13 @@ main{
 .learn_more{
     color: green;
 }
+/* pagination start here */
+.pagination{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+/* pagination end here */
 /* main ends here */
 
 /* footer starts here  */
