@@ -52,6 +52,24 @@ img{
 .card:hover{
     box-shadow: 0.4rem 0.5rem 0.9rem rgba(205, 202, 202, 1);
 }
+.hr-design{
+    margin: 0.5rem 0;
+}
+.dot{
+   height: 2rem;
+   width: 2rem;
+   border-radius: 50%;
+   display: inline-block; 
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.black {
+    background-color: black;
+}
 
 /*__reset code and commone code end here__*/
 
@@ -253,9 +271,14 @@ main{
 .header{
     height: 100vh;
 }
+.products {
+    grid-template-columns: repeat(2, minmax(0,1fr));
+}
 }
 @media (max-width: 768px){
-    
+    .products {
+        grid-template-columns: repeat(1, minmax(0,1fr));
+    }
 }
 @media (max-width: 600px){
     
