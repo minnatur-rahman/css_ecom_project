@@ -279,6 +279,11 @@ main{
     .products {
         grid-template-columns: repeat(1, minmax(0,1fr));
     }
+    .flex-center{
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 0px;
+    }
 }
 @media (max-width: 600px){
     
