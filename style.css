@@ -243,11 +243,26 @@ main{
     border-width: 1px 1px 1px 0;
     border-style: solid;
 }
-.pagination_btn:first-child {
+.pagination_btn:first-child {  
     border-width: 1px 1px 1px 1px;
     border-style: solid;
 }
 /* pagination end here */
+/* product details starts here */
+.product_details-left {
+    flex: 1;
+}
+.product_details-left img {
+    height: 20rem;
+    width: 30rem;
+}
+.product_details-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+/* product details ends here */
 /* main ends here */
 
 /* footer starts here  */
@@ -289,6 +304,7 @@ main{
 .products {
     grid-template-columns: repeat(2, minmax(0,1fr));
 }
+
 }
 @media (max-width: 768px){
     .products {
