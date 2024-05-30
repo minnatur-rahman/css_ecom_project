@@ -291,15 +291,24 @@ main{
 }
 .cart_item-description{
     flex: 0.4rem;
+    
 }
 .cart_item-shipping{
     margin-top: 0.1rem;
-    color: rgb(10, 150, 103);
+    color: red;
+}
+.cart_items-actions{
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 .cart_payment{
     flex: 1;
 }
-    /* cart design start here */
+    /* cart design ends here */
 
 /* main ends here */
 
@@ -341,6 +350,9 @@ main{
 }
 .products {
     grid-template-columns: repeat(2, minmax(0,1fr));
+}
+.cart_items, .cart_payment{
+    width: 90%;
 }
 
 }
