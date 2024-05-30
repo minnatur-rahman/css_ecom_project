@@ -263,6 +263,44 @@ main{
     gap: 0.5rem;
 }
 /* product details ends here */
+
+    /* cart design start here */
+.cart {
+    padding: var(--padding);
+    gap: 1rem;
+}
+.cart .card{
+    margin-bottom: 1rem;
+}
+.cart_items{
+    flex: 1;
+}
+.cart_items-action{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart_item input{
+    flex: 0.1;
+}
+.cart_item-img {
+    flex: 0.2;
+    width: 15rem;
+    height: 10rem;
+}
+.cart_item-description{
+    flex: 0.4rem;
+}
+.cart_item-shipping{
+    margin-top: 0.1rem;
+    color: rgb(10, 150, 103);
+}
+.cart_payment{
+    flex: 1;
+}
+    /* cart design start here */
+
 /* main ends here */
 
 /* footer starts here  */
