@@ -379,6 +379,24 @@ textarea{
 
 /* register login ends here */
 
+/* profile starts here */
+.profile{   
+    flex-direction: column;
+    gap: 3rem;
+}
+.profile .card{
+    padding: var(--padding);
+    width: 30rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+.profile_img{
+    width: 20vw;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: brown;
+}
+/* profile ends here */
 
 /* main ends here */
 
