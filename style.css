@@ -334,9 +334,9 @@ main{
 
     /* cart design ends here */
 
-/* register start here */
+/* register login start here */
 
-.register{
+.register, .login{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -344,7 +344,7 @@ main{
     gap: 3rem;
     min-height: 60vh;
 }
-.register .card{
+.register .card, .login .card{
     width: 45rem;
 }
 .form{
@@ -377,7 +377,7 @@ textarea{
     font-size: 2rem;
 }
 
-/* register ends here */
+/* register login ends here */
 
 
 /* main ends here */
