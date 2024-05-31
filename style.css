@@ -401,6 +401,23 @@ textarea{
 
 /* profile ends here */
 
+/* contact starts here */
+.contact-section{
+    min-height: 52vh;
+}
+.contruct-container{
+    margin-top: 5rem;
+}
+.contract-address{
+    flex: 1;
+    gap: 2rem;
+    flex-direction: column;
+}
+.contact_map{
+    width: 80%;
+}
+/* contact ends here */
+
 /* main ends here */
 
 /* footer starts here  */
