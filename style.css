@@ -344,7 +344,8 @@ main{
     gap: 3rem;
     min-height: 60vh;
 }
-.register .card, .login .card{
+.register .card, 
+.login .card{
     width: 45rem;
 }
 .form{
@@ -463,7 +464,20 @@ textarea{
 .cart_payment{
     width: 90%;
 }
-
+.register .card, 
+.login .card{
+    width: 90%;
+}
+.form, .form-control{
+    width: 100%;
+}
+.form-control input,
+textarea{
+    width: 80%;
+}
+.contract-address{
+    width: 100%;
+}
 
 }
 @media (max-width: 768px){
