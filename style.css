@@ -70,6 +70,9 @@ img{
 .black {
     background-color: black;
 }
+.text-center{
+    text-align: center;
+}
 
 /*__reset code and commone code end here__*/
 
@@ -330,6 +333,18 @@ main{
 }
 
     /* cart design ends here */
+
+/* register start here */
+
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* register ends here */
+
 
 /* main ends here */
 
