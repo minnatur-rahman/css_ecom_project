@@ -393,9 +393,12 @@ textarea{
 .profile_img{
     width: 20vw;
     border-radius: 50%;
-    border: 2px solid;
-    border-color: brown;
+    border: 1px solid;   
 }
+.profile_buttons{
+    background-color: transparent;
+}
+
 /* profile ends here */
 
 /* main ends here */
